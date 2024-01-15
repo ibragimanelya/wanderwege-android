@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_page_activity">
+
+    <TextView
+        android:id="@+id/pageName"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#084563"
+        android:text="@string/wanderwege"
+        android:textColor="@color/white"
+        android:fontFamily="@font/libre_baskerville"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="276.18dp"
+        android:layout_height="0dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/buttonList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:alpha="0.9"
+            android:background="@drawable/buttons"
+            android:backgroundTint="@color/primaryColor"
+            android:text="@string/choose_from_list"
+            android:textColor="#062635"
+            android:fontFamily="@font/libre_baskerville"/>
+
+        <Button
+            android:id="@+id/buttonMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="0.9"
+            android:background="@drawable/buttons"
+            android:backgroundTint="@color/primaryColor"
+            android:fontFamily="@font/libre_baskerville"
+            android:text="@string/choose_from_map"
+            android:textColor="#062635" />
+    </LinearLayout>
+</LinearLayout>

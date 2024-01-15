@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/page_with_list_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@color/primaryColor"
+        >
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="60dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/arrow_white"
+            android:layout_gravity="top|start"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="top|center"
+            android:fontFamily="@font/libre_baskerville"
+            android:gravity="center"
+            android:text="@string/wanderwege"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+    </FrameLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_wanderweg_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:scrollbars="vertical" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

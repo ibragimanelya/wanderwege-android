@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Wanderwege_myApplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="distance">Distance: X km</string>
+    <string name="startPunkt">Startpunkt: </string>
+    <string name="endPunkt">Endpunkt: </string>
+    <string name="listTitle">List of Sightseeings: </string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Wanderwege">toolbar</string>
+    <string name="choose_from_list">Choose from list</string>
+    <string name="wanderwege">Wanderwege</string>
+    <string name="choose_from_map">Choose from Map</string>
+    <string name="name_of_the_guide">Name of the Guide</string>
+    <string name="SSing_name">SSing_name</string>
+    <string name="rating">Rating</string>
+    <string name="_1_5">1/5</string>
+    <string name="rate_your_experience">Rate your experience!\n</string>
+    <string name="leave_a_comment">Leave a comment!</string>
+    <string name="please_leave_us_your_comment">Leave your comment!</string>
+    <string name="please_leave_us_your_comment_descr">Please leave us your comment!</string>
+    <string name="enter_name_and_surname">Enter Name and Surname</string>
+    <string name="enter_name_and_surname_descr">Enter Name and Surname</string>
+    <string name="_1_out_of_5">1 out of 5</string>
+    <string name="_2_out_of_5">2 out of 5</string>
+    <string name="_3_out_of_5">3 out of 5</string>
+    <string name="_4_out_of_5">4 out of 5</string>
+    <string name="_5_out_of_5">5 out of 5</string>
+    <string name="built">Built:</string>
+    <string name="brief_history">Brief History:\n</string>
+    <string name="description">description\n</string>
+    <string name="rating_and_comment">Rating and comment</string>
+    <string name="_0_0">"0.0"</string>
+
+</resources>

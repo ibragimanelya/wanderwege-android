@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textAppearanceButton">@style/ButtonText</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:textColor">@color/mainPageTextColor</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+</resources>

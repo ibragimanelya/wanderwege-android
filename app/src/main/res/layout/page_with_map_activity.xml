@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/page_with_map_activity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@color/primaryColor"
+        >
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="60dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/arrow_white"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_gravity="top|center"
+            android:fontFamily="@font/libre_baskerville"
+            android:gravity="center"
+            android:text="@string/wanderwege"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+
+    </FrameLayout>
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        />
+
+</LinearLayout>

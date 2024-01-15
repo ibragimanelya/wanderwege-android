@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comment_page_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@color/primaryColor">
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="60dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/arrow_white"
+            android:importantForAccessibility="no" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center|right"
+                android:fontFamily="@font/libre_baskerville"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:text="@string/rating_and_comment"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|center"
+                android:fontFamily="@font/libre_baskerville"
+                android:gravity="center"
+                android:text="Comment"
+                android:importantForAccessibility="no"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        >
+        <EditText
+            android:id="@+id/enter_name_in_comment_page"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="100dp"
+            android:hint="@string/enter_name_and_surname"
+            android:inputType="text"
+            android:fontFamily="@font/libre_baskerville"
+            android:background="@drawable/frame"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/enter_comment_in_comment_page"
+            android:layout_width="300dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:hint="@string/please_leave_us_your_comment"
+            android:inputType="text"
+            android:fontFamily="@font/libre_baskerville"
+            android:background="@drawable/frame"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submitInfoOnCommentPage"
+            android:alpha="0.9"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:backgroundTint="@color/primaryColor"/>
+    </LinearLayout>
+
+</LinearLayout>
