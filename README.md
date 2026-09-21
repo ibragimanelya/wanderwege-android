@@ -4,4 +4,4 @@ Android-App zur Auswahl und Erkundung von Wanderwegen. Das Projekt entstand im R
 
 Die Projektdokumentation und Präsentation befinden sich im Ordner `docs/`.
 
-**Projektstand:** Dies ist der Stand des Hochschulprojekts. Die aktuelle Version ist nicht vollständig lauffähig und wird derzeit nicht aktiv weiterentwickelt.
+**Projektstand:** Dies ist der Stand des Hochschulprojekts. Die aktuelle Version wird derzeit nicht aktiv weiterentwickelt.
